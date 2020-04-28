@@ -1,0 +1,9 @@
+E:\Documents\Project\Code\Visual Studio\OneBlockTetris\bin\Debug\OneBlockTetris.exe.config
+E:\Documents\Project\Code\Visual Studio\OneBlockTetris\bin\Debug\OneBlockTetris.exe
+E:\Documents\Project\Code\Visual Studio\OneBlockTetris\bin\Debug\OneBlockTetris.pdb
+E:\Documents\Project\Code\Visual Studio\OneBlockTetris\obj\Debug\OneBlockTetris.csprojAssemblyReference.cache
+E:\Documents\Project\Code\Visual Studio\OneBlockTetris\obj\Debug\OneBlockTetris.Form1.resources
+E:\Documents\Project\Code\Visual Studio\OneBlockTetris\obj\Debug\OneBlockTetris.Properties.Resources.resources
+E:\Documents\Project\Code\Visual Studio\OneBlockTetris\obj\Debug\OneBlockTetris.csproj.GenerateResource.cache
+E:\Documents\Project\Code\Visual Studio\OneBlockTetris\obj\Debug\OneBlockTetris.exe
+E:\Documents\Project\Code\Visual Studio\OneBlockTetris\obj\Debug\OneBlockTetris.pdb
