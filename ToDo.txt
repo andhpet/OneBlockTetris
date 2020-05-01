@@ -1,0 +1,8 @@
+﻿X	Fix if else references
+X	Make standard tetris blocks
+X	Make methods to clean filled lines
+X	Show score
+X	Change UI
+X	Add icon
+X	User can change speed
+X	User can change size
