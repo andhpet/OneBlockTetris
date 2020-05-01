@@ -82,7 +82,7 @@ namespace OneBlockTetris
                 if (BlockLabels[_tetrisPiecePosition].BackColor == _blockEmptyColor[0])
                 {
                     BlockLabels[_tetrisPiecePosition].BackColor = _blockEmptyColor[1];
-                    if (_tetrisPiecePosition > 5)
+                    if (_tetrisPiecePosition > 4)       //changed* (_tetrisPiecePosition > 5)   first line last block index is 4
                     {
                         BlockLabels[_tetrisPiecePosition - 5].BackColor = _blockEmptyColor[0];
                     }
@@ -191,11 +191,11 @@ namespace OneBlockTetris
             {
                 if (_tetrisPiecePosition < 39 && _blockFilled[_tetrisPiecePosition] == false)
                 {
-                    if (_tetrisPiecePosition != 0 && _tetrisPiecePosition != 4
+                    if (/*_tetrisPiecePosition != 0 &&*/ _tetrisPiecePosition != 4         //changed*  not needed condition
                         && _tetrisPiecePosition != 9 && _tetrisPiecePosition != 14
                          && _tetrisPiecePosition != 19 && _tetrisPiecePosition != 24
                           && _tetrisPiecePosition != 29 && _tetrisPiecePosition != 34
-                           && BlockLabels[_tetrisPiecePosition - 1].BackColor != _blockEmptyColor[1])
+                           && BlockLabels[_tetrisPiecePosition + 1].BackColor != _blockEmptyColor[1])       //changed* (_tetrisPiecePosition - 1)  right block of piece
                     {
                         _tetrisPiecePosition++;
                         BlockLabels[_tetrisPiecePosition].BackColor = _blockEmptyColor[1];
